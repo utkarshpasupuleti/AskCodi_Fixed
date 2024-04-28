@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WheelsOnTheGo - Car Rental Service</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333; /* Added for better contrast */
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    .car {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
+      display: inline-block;
+      width: 200px;
+      text-align: center;
+      background-color: #fff;
+    }
+    form {
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+    }
+    a {
+      color: #fff; /* Increased contrast for navigation links */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to WheelsOnTheGo Car Rental</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Cars</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+  </nav>
+  <section>
+    <h2>Available Cars for Rent</h2>
+    <label for="search">Search for cars:</label> <!-- Added label for search input -->
+    <input type="text" id="search" placeholder="Search...">
+    <div class="car">
+      <h3>Car Model 1</h3>
+      <p>Description of Car Model 1</p>
+      <p>Price: $XX/day</p>
+    </div>
+    <div class="car">
+      <h3>Car Model 2</h3>
+      <p>Description of Car Model 2</p>
+      <p>Price: $XX/day</p>
+    </div>
+    <!-- More car listings go here -->
+  </section>
+  <section>
+    <h2>About Us</h2>
+    <p>Learn about our mission and benefits of renting from WheelsOnTheGo.</p>
+  </section>
+  <section>
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  <script>
+    // JavaScript functionality (if needed)
+  </script>
+</body>
+</html>
